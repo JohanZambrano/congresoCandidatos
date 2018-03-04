@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 package congresocandidatos;
-/**
- *
- * @author Johan Zambrano
+/** 
+ *@version 1.8.0_161,  3 de Marzo del 2018
+ * @author Johan Zambrano y Yeferson Patarroyo
  */
 public class Candidato {
     //Variables
@@ -97,4 +97,3 @@ public class Candidato {
             return respuesta;
         }         
 }
-

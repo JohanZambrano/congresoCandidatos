@@ -6,8 +6,9 @@
 package congresocandidatos;
 import java.util.Scanner;
 /**
- *
- * @author Johan Zambrano
+ * Selecciona la publicidad que mas lo influencio y retorna 
+ * @version 1.8.0_161,  3 de Marzo del 2018
+ * @author Johan Zambrano y Yeferson Patarroyo
  */
 public class metodoPublicidad {
     int metodoPublicidad(){
@@ -20,6 +21,17 @@ public class metodoPublicidad {
             System.out.println("3-Internet");
             pu=l.nextInt();
         }while(pu>3 || pu<1);        
-        return pu;
+        switch(pu){
+            case 1:
+                pu=200000; //le da el valor de television que son 200000
+            break;    
+            case 2:
+                pu=150000;//le da el valor de radio que son 150000
+            break;    
+            case 3:
+                pu=10000;//le da el valor de internet que es 10000
+            break;    
+        }
+        return pu;//retorna el valor correspondiente
     }
 }
